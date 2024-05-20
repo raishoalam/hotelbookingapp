@@ -1,0 +1,495 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+#navigation {
+    padding-top: 30px;
+    padding-bottom: 10px;
+    top: 0;
+    width: 100%;
+    height: 60px;
+    background-color: black;
+}
+
+.navbar-right {
+    float: right;
+    padding-right: 10%;
+}
+
+.navbar-right a {
+    text-decoration: none;
+    padding: 10px;
+    color: #fff;
+    font-family: Arial;
+    font-weight: 700;
+}
+
+.navbar-right a:hover {
+    text-decoration: none;
+    color: orange;
+}
+
+.navbar-logo {
+    padding-left: 20px;
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: 900;
+    text-decoration: none;
+    color: orange;
+}
+
+.navbar-logo a :hover {
+    text-decoration: none;
+    color: white;
+}
+
+#nav-btn {
+    color: #fff;
+    padding: 10px 40px;
+    border: 0;
+    border-radius: 5px;
+    background: blue;
+}
+
+
+.video-background-holder {
+    position: relative;
+    background-color: black;
+    height: calc(100vh - 1080px);
+    min-height: 25rem;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    padding-top: 200px;
+}
+
+.video-background-holder video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: 0;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.video-background-content {
+    position: relative;
+    z-index: 2;
+}
+
+.video-background-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    opacity: 0.5;
+    z-index: 1;
+}
+
+.btn-booking {
+    padding: 20px 50px;
+    color: #fff;
+    background: #4444;
+    border: 2px solid orange;
+    border-radius: 4px;
+    font-size: 20px;
+    outline: none;
+    margin: 100px;
+    text-decoration: none;
+}
+
+.display-4 {
+    color: #fff;
+    font-size: 50px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
+.lead {
+    color: #fff;
+    font-size: 17px;
+    margin-bottom: 40px;
+}
+
+
+.about-section {
+    background: black;
+    background-size: cover;
+    padding: 40px;
+}
+
+.about-content {
+    width: 500px;
+    padding: 40px;
+}
+
+.about-img {
+    width: 400px;
+
+}
+
+.about-description {
+    color: #fff;
+}
+
+.about-heading {
+    font-size: 60px;
+    color: orange;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-style {
+    font-size: 60px;
+    color: #fff;
+}
+
+.about-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/*Room-section */
+.rooms-section {
+    background: black;
+    background-size: cover;
+    padding: 20px;
+}
+
+.rooms-heading {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.romms-style {
+    color: orange;
+    font-size: 60px;
+    padding: 20px 0px;
+}
+
+.rooms-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.rooms-card {
+    background: #333;
+    width: 400px;
+    padding: 40px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.room-img {
+    display: flex;
+    justify-content: center;
+}
+
+.room-card-img {
+    width: 360px;
+    border-radius: 5px;
+}
+
+.card-heading {
+    color: #fff;
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.card-description {
+    color: #999;
+    font-size: 14px;
+    margin-bottom: 30px;
+}
+
+.card-icon {
+    color: orange;
+    font-size: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+.card-btn {
+    padding: 10px 40px;
+    background: orange;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    color: #fff;
+    font-size: 18px;
+    margin: 20px 0px;
+    text-decoration: none;
+}
+
+.room-price {
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 4px;
+    background: #111;
+    padding: 10px 5px;
+    margin-top: 40px;
+}
+
+
+/*gallery-section --*/
+.gallery-section {
+    background: #111;
+    background-size: cover;
+}
+
+.gallery-heading {
+    color: orange;
+    font-size: 60px;
+    padding: 20px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.gellery-style {
+    color: #fff;
+    font-size: 60px;
+}
+
+.gallery-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card-gallery {
+    border-radius: 5px;
+    background: #fff;
+    padding: 20px;
+    margin: 20px;
+}
+
+.gallery-img {
+    width: 200px;
+    border-radius: 5px;
+    transition: 2s;
+    cursor: pointer;
+}
+
+.gallery-img:hover {
+    transform: scale(1.1);
+}
+
+/*review section */
+
+.review-section {
+    background: black;
+    background-size: cover;
+    padding: 20px;
+}
+
+.review-heading {
+    color: #fff;
+    font-size: 60px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px 0px;
+}
+
+.review-style {
+    color: orange;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.review-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.review-card {
+    background: #444;
+    background-size: cover;
+    padding: 30px;
+    margin: 20px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+.review {
+    display: flex;
+    justify-content: center;
+}
+
+.review-img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.review-description {
+    color: #fff;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+
+/*booking-section----*/
+.booking-section {
+    background: black;
+    background-size: cover;
+    padding: 40px;
+}
+
+.form-heading {
+    font-size: 60px;
+    text-align: center;
+    padding: 20px;
+    color: orange;
+    font-weight: bold;
+    font-family: Sans-Serif;
+}
+
+.form-style {
+    color: #fff;
+    font-size: 60px;
+}
+
+#bookingForm {
+    background: #fff;
+    padding: 40px;
+    background-size: cover;
+    border-radius: 10px;
+    box-shadow: 1px 1px 10px 10px #4444;
+
+}
+
+.input-section {
+    display: flex;
+    justify-content: space-between;
+    margin: 20px;
+}
+
+.input-form {
+    border: 1px solid #444;
+    border-radius: 4px;
+    height: 40px;
+    width: 300px;
+    transition: 1s;
+    outline: 0;
+    margin-bottom: -20px;
+}
+
+.input-form:focus {
+    border: 2px solid blue;
+}
+
+.input-form::placeholder {
+    color: blue;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.input-heading {
+    color: #999;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.options {
+    font-size: 14px;
+    color: #999;
+    font-weight: 500;
+}
+
+.submited-btn {
+    display: flex;
+    justify-content: center;
+    margin: 50px;
+}
+
+.submit-btn {
+    padding: 10px 50px;
+    border: 0;
+    background: #39a2f7;
+    color: #fff;
+    font-size: 17px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+/*Footer section */
+
+
+
+.footer-section {
+    background: #444;
+    background-size: cover;
+    padding: 20px;
+}
+
+.footer-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer-card {
+    margin: 40px;
+}
+
+.footer-heading {
+    color: #fff;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: Sans-Serif;
+    margin: 10px;
+}
+
+.footer-style {
+    color: #f2504e;
+    font-size: 20px;
+    padding-right: 10px;
+}
+
+.footer-desc {
+    color: #fff;
+    font-size: 17px;
+    margin: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon {
+    color: #fff;
+    font-size: 30px;
+    background: #de45d4;
+    background-size: cover;
+    padding: 8px 12px;
+    border-radius: 50%;
+    margin: 10px;
+}
+
+.copyright {
+    color: #999;
+    text-align: center;
+    padding: 20px;
+}
